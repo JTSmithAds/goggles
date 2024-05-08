@@ -5,6 +5,10 @@
 ! homepage: https://abcsearch.org/
 ! avatar: #414040
 
+! Boost Kid-Specific Subdomains and Paths
+/*kids*/$boost=3
+|*kids*|$boost=3
+
 ! Discard Social Sites
 $discard,site=facebook.com
 $discard,site=instagram.com
@@ -34,9 +38,35 @@ $downrank=3,site=theatlantic.com
 $discard,site=reddit.com
 $discard,site=quora.com
 
-! Boost Kid-Specific Subdomains and Paths
-/*kids*/$boost=3
-|*kids*|$boost=3
+
+
+! Discard Violent Domains or Paths
+/*gore*/$discard
+/*violent*/$discard
+/*killing*/$discard
+/*murder*/$discard
+/*blood*/$discard
+/*horror*/$discard
+|*gore*|$discard
+|*violent*|$discard
+|*killing*|$discard
+|*murder*|$discard
+|*blood*|$discard
+|*horror*|$discard
+
+! Discard Drug Domains and Paths
+/*drugs*/$discard
+/*cocaine*/$discard
+/*heroin*/$discard
+/*alcohol*/$discard
+/*cannabis*/$discard
+/*meth*/$discard
+|*drugs*|$discard
+|*cocaine*|$discard
+|*heroin*|$discard
+|*alcohol*|$discard
+|*cannabis*|$discard
+|*meth*|$discard
 
 ! Discard Profanity Domains or Paths
 /*fuck*/$discard
@@ -81,32 +111,3 @@ $discard,site=quora.com
 |*nude*|$discard
 |*erotic*|$discard
 |*sex*|$discard
-
-
-! Discard Violent Domains or Paths
-/*gore*/$discard
-/*violent*/$discard
-/*killing*/$discard
-/*murder*/$discard
-/*blood*/$discard
-/*horror*/$discard
-|*gore*|$discard
-|*violent*|$discard
-|*killing*|$discard
-|*murder*|$discard
-|*blood*|$discard
-|*horror*|$discard
-
-! Discard Drug Domains and Paths
-/*drugs*/$discard
-/*cocaine*/$discard
-/*heroin*/$discard
-/*alcohol*/$discard
-/*cannabis*/$discard
-/*meth*/$discard
-|*drugs*|$discard
-|*cocaine*|$discard
-|*heroin*|$discard
-|*alcohol*|$discard
-|*cannabis*|$discard
-|*meth*|$discard
