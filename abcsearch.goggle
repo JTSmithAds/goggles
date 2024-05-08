@@ -6,8 +6,7 @@
 ! avatar: #FFBF00
 
 ! Boost Kid-Specific Subdomains and Paths
-/*kids*/$boost=3
-|*kids*|$boost=3
+*kids*$boost=3
 
 ! Discard Social Sites
 $discard,site=facebook.com
@@ -41,81 +40,44 @@ $discard,site=reddit.com
 $discard,site=quora.com
 
 ! Discard Violent Domains or Paths
-/*gore*/$discard
-/*violent*/$discard
-/*killing*/$discard
-/*murder*/$discard
-/*blood*/$discard
-/*horror*/$discard
-|*gore*|$discard
-|*violent*|$discard
-|*killing*|$discard
-|*murder*|$discard
-|*blood*|$discard
-|*horror*|$discard
+*gore*$discard
+*violent*$discard
+*killing*$discard
+*murder*$discard
+*blood*$discard
+*horror*$discard
 
 ! Discard Drug Domains and Paths
-/*drugs*/$discard
-/*cocaine*/$discard
-/*heroin*/$discard
-/*alcohol*/$discard
-/*cannabis*/$discard
-/*meth*/$discard
-|*drugs*|$discard
-|*cocaine*|$discard
-|*heroin*|$discard
-|*alcohol*|$discard
-|*cannabis*|$discard
-|*meth*|$discard
+*drugs*$discard
+*cocaine*$discard
+*heroin*$discard
+*alcohol*$discard
+*cannabis*$discard
+*meth*$discard
 
 ! Discard Profanity Domains or Paths
-/*fuck*/$discard
-/*shit*/$discard
-|*shit*|$discard
-|*fuck*|$discard
+*fuck*$discard
+*shit*$discard
 
 ! Discard Mature Domains or Paths
-/*mature*/$discard
-/*adult*/$discard
-/*xxx*/$discard
-/*nsfw*/$discard
-/*porn*/$discard
-/*nude*/$discard
-/*erotic*/$discard
-/*sex*/$discard
-/*lesbian*/$discard
-/*gay*/$discard
-/*lgbt*/$discard
-/*lgbtq*/$discard
-/*lgbtq*/$discard
-/*lgbtqia*/$discard
-/*transgender*/$discard
-/*milf*/$discard
-/*vagina*/$discard
-/*penis*/$discard
-/*nudity*/$discard
-/*naked*/$discard
-/*nudist*/$discard
-/*nudism*/$discard
-|*nudism*|$discard
-|*nudist*|$discard
-|*naked*|$discard
-|*nudity*|$discard
-|*penis*|$discard
-|*vagina*|$discard
-|*milf*|$discard
-|*transgender*|$discard
-|*lgbtqia*|$discard
-|*lgbtq*|$discard
-|*lgbtq*|$discard
-|*lgbt*|$discard
-|*gay*|$discard
-|*lesbian*|$discard
-|*mature*|$discard
-|*adult*|$discard
-|*xxx*|$discard
-|*nsfw*|$discard
-|*porn*|$discard
-|*nude*|$discard
-|*erotic*|$discard
-|*sex*|$discard
+*mature*$discard
+*adult*$discard
+*xxx*$discard
+*nsfw*$discard
+*porn*$discard
+*nude*$discard
+*erotic*$discard
+*sex*$discard
+*lesbian*$discard
+*gay*$discard
+*lgbt*$discard
+*lgbtq*$discard
+*lgbtqia*$discard
+*transgender*$discard
+*milf*$discard
+*vagina*$discard
+*penis*$discard
+*nudity*$discard
+*naked*$discard
+*nudist*$discard
+*nudism*$discard
