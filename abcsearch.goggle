@@ -1,0 +1,112 @@
+! name: Kids Search
+! description: Used alongside ABCSearch.org and KidsEmail.org to keep kids safe online.
+! public: true
+! author: ABCSearch.org
+! homepage: https://abcsearch.org/
+! avatar: #414040
+
+! Discard Social Sites
+$discard,site=facebook.com
+$discard,site=instagram.com
+$discard,site=tiktok.com
+$discard,site=x.com
+$discard,site=twitter.com
+$discard,site=pinterest.com
+
+! Downrank Popular Negative News Sites
+$downrank=3,site=cnn.com
+$downrank=3,site=foxnews.com
+$downrank=3,site=politico.com
+$downrank=3,site=nytimes.com
+$downrank=3,site=abcnews.go.com
+$downrank=3,site=axios.com
+$downrank=3,site=cbsnews.com
+$downrank=3,site=thehill.com
+$downrank=3,site=msnbc.com
+$downrank=3,site=washingtonpost.com
+$downrank=3,site=newsweek.com
+$downrank=3,site=apnews.com
+$downrank=3,site=usnews.com
+$downrank=3,site=theatlantic.com
+
+
+! Remove Discussion Sites
+$discard,site=reddit.com
+$discard,site=quora.com
+
+! Boost Kid-Specific Subdomains and Paths
+/*kids*/$boost=1
+|*kids*|$boost=1
+
+! Discard Profanity Domains or Paths
+/*fuck*/$discard
+/*shit*/$discard
+|*shit*|$discard
+|*fuck*|$discard
+
+! Discard Mature Domains or Paths
+/*mature*/$discard
+/*adult*/$discard
+/*xxx*/$discard
+/*nsfw*/$discard
+/*porn*/$discard
+/*nude*/$discard
+/*erotic*/$discard
+/*sex*/$discard
+/*lesbian*/$discard
+/*gay*/$discard
+/*lgbt*/$discard
+/*lgbtq*/$discard
+/*lgbtq*/$discard
+/*lgbtqia*/$discard
+/*transgender*/$discard
+/*milf*/$discard
+/*vagina*/$discard
+/*penis*/$discard
+|*penis*|$discard
+|*vagina*|$discard
+|*milf*|$discard
+|*transgender*|$discard
+|*lgbtqia*|$discard
+|*lgbtq*|$discard
+|*lgbtq*|$discard
+|*lgbt*|$discard
+|*gay*|$discard
+|*lesbian*|$discard
+|*mature*|$discard
+|*adult*|$discard
+|*xxx*|$discard
+|*nsfw*|$discard
+|*porn*|$discard
+|*nude*|$discard
+|*erotic*|$discard
+|*sex*|$discard
+
+
+! Discard Violent Domains or Paths
+/*gore*/$discard
+/*violent*/$discard
+/*killing*/$discard
+/*murder*/$discard
+/*blood*/$discard
+/*horror*/$discard
+|*gore*|$discard
+|*violent*|$discard
+|*killing*|$discard
+|*murder*|$discard
+|*blood*|$discard
+|*horror*|$discard
+
+! Discard Drug Domains and Paths
+/*drugs*/$discard
+/*cocaine*/$discard
+/*heroin*/$discard
+/*alcohol*/$discard
+/*cannabis*/$discard
+/*meth*/$discard
+|*drugs*|$discard
+|*cocaine*|$discard
+|*heroin*|$discard
+|*alcohol*|$discard
+|*cannabis*|$discard
+|*meth*|$discard
