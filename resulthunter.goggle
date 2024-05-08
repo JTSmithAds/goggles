@@ -15,11 +15,13 @@ $downrank=4,site=thedailybeast.com
 $downrank=4,site=mediamatters.org
 $downrank=4,site=huffpost.com
 $downrank=4,site=cnn.com
+$downrank=4,site=cnbc.com
 $downrank=4,site=theyoungturks.com
 $downrank=4,site=care2.com
 $downrank=4,site=canyoncountryzephyr.com
 $downrank=3,site=washingtonpost.com
 $downrank=3,site=usatoday.com
+$downrank=3,site=newsweek.com
 $downrank=3,site=amnesty.org
 $downrank=3,site=apnews.com
 $downrank=3,site=bbc.com
@@ -36,8 +38,8 @@ $downrank=3,site=variety.com
 $downrank=3,site=buzzfeednews.com
 $downrank=3,site=alternet.org
 $downrank=3,site=abcnews.go.com
-/us^$downrank=3,site=theguardian.com
-/us^$downrank=3,site=theconversation.com
+$downrank=3,site=theguardian.com
+$downrank=3,site=theconversation.com
 /time^$downrank=3,site=time.com
 /sections/opinion^$downrank=3,site=npr.org
 /en/climatechange^$downrank=4,site=un.org
@@ -86,6 +88,7 @@ $downrank=3,site=nymag.com
 $downrank=3,site=nydailynews.com
 $downrank=3,site=npr.org
 $downrank=3,site=nj.com
+$downrank=3,site=independent.co.uk
 $downrank=3,site=newyorker.com
 $downrank=3,site=newsone.com
 $downrank=3,site=newscentermaine.com
@@ -148,8 +151,12 @@ $downrank=3,site=bgdailynews.com
 $downrank=3,site=arkansasonline.com
 $downrank=3,site=americanprogress.org
 $downrank=3,site=aljazeera.com
+$downrank=3,site=sfgate.com
 $downrank=3,site=ajplus.net
 $downrank=3,site=ajc.com
+$downrank=2,site=thehill.com
+$downrank=2,site=reuters.com
+$downrank=2,site=wsj.com
 
 ! Downrank Leftish Info Sites
 $downrank=2,site=reddit.com
