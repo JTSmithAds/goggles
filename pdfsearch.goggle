@@ -5,6 +5,5 @@
 ! homepage: https://filesearchbox.com/
 ! avatar: #141440
 
-$discard
-
 *.pdf/$boost=1
+*^*.pdf/$discard
