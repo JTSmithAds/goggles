@@ -35,8 +35,8 @@ $discard,site=reddit.com
 $discard,site=quora.com
 
 ! Boost Kid-Specific Subdomains and Paths
-/*kids*/$boost=1
-|*kids*|$boost=1
+/*kids*/$boost=3
+|*kids*|$boost=3
 
 ! Discard Profanity Domains or Paths
 /*fuck*/$discard
