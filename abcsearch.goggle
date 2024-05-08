@@ -19,6 +19,9 @@ $discard,site=pinterest.com
 
 ! Downrank Popular Negative News Sites
 $downrank=3,site=cnn.com
+$downrank=3,site=cnbc.com
+$downrank=3,site=nbcnews.com
+$downrank=3,site=independent.co.uk
 $downrank=3,site=foxnews.com
 $downrank=3,site=politico.com
 $downrank=3,site=nytimes.com
@@ -33,12 +36,9 @@ $downrank=3,site=apnews.com
 $downrank=3,site=usnews.com
 $downrank=3,site=theatlantic.com
 
-
 ! Remove Discussion Sites
 $discard,site=reddit.com
 $discard,site=quora.com
-
-
 
 ! Discard Violent Domains or Paths
 /*gore*/$discard
@@ -93,6 +93,14 @@ $discard,site=quora.com
 /*milf*/$discard
 /*vagina*/$discard
 /*penis*/$discard
+/*nudity*/$discard
+/*naked*/$discard
+/*nudist*/$discard
+/*nudism*/$discard
+|*nudism*|$discard
+|*nudist*|$discard
+|*naked*|$discard
+|*nudity*|$discard
 |*penis*|$discard
 |*vagina*|$discard
 |*milf*|$discard
