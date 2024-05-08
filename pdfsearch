@@ -1,0 +1,9 @@
+! name: PDF Search
+! description: Used by filesearchbox.com
+! public: false
+! author: Filesearchbox.com
+! homepage: https://filesearchbox.com/
+! avatar: #141440
+
+$discard
+*.pdf$/$boost=10
