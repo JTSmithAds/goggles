@@ -6,4 +6,4 @@
 ! avatar: #141440
 
 $discard
-*.pdf|$boost=1
+*.pdf|$boost=10
