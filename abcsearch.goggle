@@ -3,7 +3,7 @@
 ! public: true
 ! author: ABCSearch.org
 ! homepage: https://abcsearch.org/
-! avatar: #414040
+! avatar: #FFBF00
 
 ! Boost Kid-Specific Subdomains and Paths
 /*kids*/$boost=3
