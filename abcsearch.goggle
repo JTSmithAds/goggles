@@ -6,7 +6,7 @@
 ! avatar: #FFBF00
 
 ! Boost Kid-Specific Subdomains and Paths
-*kids*$boost=3
+*kids*$boost=3,inurl
 
 ! Discard Social Sites
 $discard,site=facebook.com
@@ -40,44 +40,44 @@ $discard,site=reddit.com
 $discard,site=quora.com
 
 ! Discard Violent Domains or Paths
-*gore*$discard
-*violent*$discard
-*killing*$discard
-*murder*$discard
-*blood*$discard
-*horror*$discard
+*gore*$discard,inurl
+*violent*$discard,inurl
+*killing*$discard,inurl
+*murder*$discard,inurl
+*blood*$discard,inurl
+*horror*$discard,inurl
 
 ! Discard Drug Domains and Paths
-*drugs*$discard
-*cocaine*$discard
-*heroin*$discard
-*alcohol*$discard
-*cannabis*$discard
-*meth*$discard
+*drugs*$discard,inurl
+*cocaine*$discard,inurl
+*heroin*$discard,inurl
+*alcohol*$discard,inurl
+*cannabis*$discard,inurl
+*meth*$discard,inurl
 
 ! Discard Profanity Domains or Paths
-*fuck*$discard
-*shit*$discard
+*fuck*$discard,inurl
+*shit*$discard,inurl
 
 ! Discard Mature Domains or Paths
-*mature*$discard
-*adult*$discard
-*xxx*$discard
-*nsfw*$discard
-*porn*$discard
-*nude*$discard
-*erotic*$discard
-*sex*$discard
-*lesbian*$discard
-*gay*$discard
-*lgbt*$discard
-*lgbtq*$discard
-*lgbtqia*$discard
-*transgender*$discard
-*milf*$discard
-*vagina*$discard
-*penis*$discard
-*nudity*$discard
-*naked*$discard
-*nudist*$discard
-*nudism*$discard
+*mature*$discard,inurl
+*adult*$discard,inurl
+*xxx*$discard,inurl
+*nsfw*$discard,inurl
+*porn*$discard,inurl
+*nude*$discard,inurl
+*erotic*$discard,inurl
+*sex*$discard,inurl
+*lesbian*$discard,inurl
+*gay*$discard,inurl
+*lgbt*$discard,inurl
+*lgbtq*$discard,inurl
+*lgbtqia*$discard,inurl
+*transgender*$discard,inurl
+*milf*$discard,inurl
+*vagina*$discard,inurl
+*penis*$discard,inurl
+*nudity*$discard,inurl
+*naked*$discard,inurl
+*nudist*$discard,inurl
+*nudism*$discard,inurl
