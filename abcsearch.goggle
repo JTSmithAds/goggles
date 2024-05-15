@@ -16,12 +16,13 @@ $discard,site=x.com
 $discard,site=twitter.com
 $discard,site=pinterest.com
 
-! Downrank Popular Negative News Sites
+! Downrank Popular Negative or Gossip News Sites
 $downrank=3,site=cnn.com
 $downrank=3,site=cnbc.com
 $downrank=3,site=nbcnews.com
 $downrank=3,site=independent.co.uk
 $downrank=3,site=foxnews.com
+$downrank=3,site=huffpost.com
 $downrank=3,site=politico.com
 $downrank=3,site=nytimes.com
 $downrank=3,site=abcnews.go.com
