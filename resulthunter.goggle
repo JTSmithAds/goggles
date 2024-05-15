@@ -14,7 +14,7 @@ $downrank=4,site=vox.com
 $downrank=4,site=thedailybeast.com
 $downrank=4,site=mediamatters.org
 $downrank=4,site=huffpost.com
-$downrank=4,site=cnn.com
+$downrank=9,site=cnn.com
 $downrank=4,site=cnbc.com
 $downrank=4,site=theyoungturks.com
 $downrank=4,site=care2.com
@@ -159,8 +159,8 @@ $downrank=2,site=reuters.com
 $downrank=2,site=wsj.com
 
 ! Downrank Leftish Info Sites
-$downrank=2,site=reddit.com
-$downrank=2,site=wikipedia.org
+$downrank=4,site=reddit.com
+$downrank=4,site=wikipedia.org
 
 ! Discard Abortion
 $discard,site=plannedparenthood.org
