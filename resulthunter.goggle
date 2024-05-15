@@ -14,7 +14,7 @@ $downrank=4,site=vox.com
 $downrank=4,site=thedailybeast.com
 $downrank=4,site=mediamatters.org
 $downrank=4,site=huffpost.com
-$downrank=9,site=cnn.com
+site=cnn.com$downrank=9
 $downrank=4,site=cnbc.com
 $downrank=4,site=theyoungturks.com
 $downrank=4,site=care2.com
