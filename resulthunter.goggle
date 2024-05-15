@@ -9,12 +9,11 @@
 ! Quality of search goes down when you boost, because random news articles overtake information searches.
 
 ! Downrank Popular Leftist Sites
-/section/opinion^$downrank=4,site=nytimes.com
 $downrank=4,site=vox.com
 $downrank=4,site=thedailybeast.com
 $downrank=4,site=mediamatters.org
 $downrank=4,site=huffpost.com
-*$downrank=4,site=cnn.com
+$downrank=4,site=cnn.com
 $downrank=4,site=cnbc.com
 $downrank=4,site=theyoungturks.com
 $downrank=4,site=care2.com
@@ -40,14 +39,6 @@ $downrank=3,site=alternet.org
 $downrank=3,site=abcnews.go.com
 $downrank=3,site=theguardian.com
 $downrank=3,site=theconversation.com
-/time^$downrank=3,site=time.com
-/sections/opinion^$downrank=3,site=npr.org
-/en/climatechange^$downrank=4,site=un.org
-/section/opinion^$downrank=3,site=theweek.com
-/politics^$downrank=3,site=theverge.com
-/location/berkeley^$downrank=3,site=eastbaytimes.com
-/business^$downrank=3,site=cnn.com
-/amnews^$downrank=3,site=centralkynews.com
 $downrank=3,site=yahoo.com
 $downrank=3,site=wyomingpublicmedia.org
 $downrank=3,site=washingtonmonthly.com
