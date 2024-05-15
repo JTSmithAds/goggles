@@ -87,3 +87,4 @@ $downrank=4,site=wikipedia.org
 ! Discard Abortion
 $discard,site=plannedparenthood.org
 $discard,site=plannedparenthoodaction.org
+$discard,site:moveon.org
