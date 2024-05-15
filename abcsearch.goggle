@@ -49,7 +49,7 @@ $discard,site=quora.com
 
 ! Discard Drug Domains and Paths
 *drugs*$discard,inurl
-*cocaine*,$discard,inurl
+$discard,*cocaine*,inurl,
 *heroin*$discard,inurl
 *alcohol*$discard,inurl
 *cannabis*$discard,inurl
