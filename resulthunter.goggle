@@ -90,4 +90,4 @@ $downrank=2,site=amazon.com
 ! Discard Abortion
 $discard,site=plannedparenthood.org
 $discard,site=plannedparenthoodaction.org
-$discard,site:moveon.org
+$discard,site=moveon.org
