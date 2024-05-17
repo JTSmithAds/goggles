@@ -11,7 +11,6 @@ $downrank=4,site=mediamatters.org
 $downrank=4,site=huffpost.com
 $downrank=4,site=capitalandmain.com
 $downrank=4,site=nbcnews.com
-$downrank=4,site=cnn.com
 $downrank=4,site=cnbc.com
 $downrank=4,site=theyoungturks.com
 $downrank=4,site=care2.com
@@ -84,3 +83,4 @@ $downrank=2,site=amazon.com
 $downrank=2,site=facebook.com
 $discard,site=plannedparenthood.org
 $discard,site=plannedparenthoodaction.org
+$discard,site=cnn.com
