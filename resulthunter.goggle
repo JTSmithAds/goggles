@@ -4,11 +4,6 @@
 ! author: ResultHunter.com
 ! homepage: https://resulthunter.com/
 ! avatar: #141440
-
-! Boost Conservative Sites
-! Quality of search goes down when you boost, because random news articles overtake information searches.
-
-! Downrank Popular Leftist Sites
 $downrank=4,site=vox.com
 $downrank=4,site=reuters.com
 $downrank=4,site=thedailybeast.com
@@ -83,15 +78,9 @@ $downrank=3,site=nymag.com
 $downrank=3,site=nydailynews.com
 $downrank=3,site=npr.org
 $downrank=3,site=nj.com
-
-! Downrank Leftish Info Sites
 $downrank=4,site=reddit.com
 $downrank=4,site=wikipedia.org
-
-! Downrank low quality
 $downrank=2,site=amazon.com
 $downrank=2,site=facebook.com
-
-! Discard Abortion
 $discard,site=plannedparenthood.org
 $discard,site=plannedparenthoodaction.org
