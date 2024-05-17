@@ -84,7 +84,7 @@ $downrank=3,site=nj.com
 $downrank=4,site=reddit.com
 $downrank=4,site=wikipedia.org
 
-! Downrank Because Search Experience is not great
+! Downrank
 $downrank=2,site=amazon.com
 
 ! Discard Abortion
