@@ -10,6 +10,7 @@
 
 ! Downrank Popular Leftist Sites
 $downrank=4,site=vox.com
+$downrank=4,site=reuters.com
 $downrank=4,site=thedailybeast.com
 $downrank=4,site=mediamatters.org
 $downrank=4,site=huffpost.com
