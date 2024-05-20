@@ -23,6 +23,7 @@ $downrank=4,site=newyorker.com
 $downrank=4,site=theintercept.com
 $downrank=4,site=canyoncountryzephyr.com
 $downrank=4,site=mirror.co.uk
+$downrank=4,site=independent.co.uk
 $downrank=3,site=washingtonpost.com
 $downrank=3,site=usatoday.com
 $downrank=3,site=newsweek.com
