@@ -1,0 +1,12 @@
+! name: Result Hunter Shopping
+! description: Used on ResultHunter.com to help conservatives get results they want.
+! public: false
+! author: ResultHunter.com
+! homepage: https://resulthunter.com/
+! avatar: #141440
+$discard
+$boost=1,site=birchgoldgroup.com
+$boost=1,site=stamps.com
+$boost=1,site=stampsmarketplace.com
+$boost=1,site=libertyclassroom.com
+$boost=1,site=augustapreciousmetals.com
