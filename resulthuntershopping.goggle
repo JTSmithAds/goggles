@@ -5,8 +5,26 @@
 ! homepage: https://resulthunter.com/
 ! avatar: #141440
 $discard
+
+! gold
 $boost=1,site=birchgold.com
+$boost=1,site=augustapreciousmetals.com
+
+! mattress
+$boost=1,site=puffy.com
+
+! solar generator
+$boost=1,site=jackery.com
+
+! water filtration
+$boost=1,site=boroux.com
+
+! stamps
 $boost=1,site=stamps.com
 $boost=1,site=stampsmarketplace.com
+
+! education
 $boost=1,site=libertyclassroom.com
-$boost=1,site=augustapreciousmetals.com
+
+!clothing
+$boost=1,site=chicos.com
