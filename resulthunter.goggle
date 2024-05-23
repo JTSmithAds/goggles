@@ -88,7 +88,6 @@ $downrank=3,site=npr.org
 $downrank=3,site=nj.com
 $downrank=4,site=reddit.com
 $downrank=4,site=wikipedia.org
-$downrank=2,site=amazon.com
 $downrank=2,site=facebook.com
 $discard,site=plannedparenthood.org
 $discard,site=plannedparenthoodaction.org
