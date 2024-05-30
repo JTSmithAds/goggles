@@ -10,6 +10,7 @@ $downrank=4,site=thedailybeast.com
 $downrank=4,site=mediamatters.org
 $downrank=4,site=huffpost.com
 $downrank=4,site=capitalandmain.com
+$downrank=4,site=americanprogress.org
 $downrank=4,site=nbcnews.com
 $downrank=4,site=cnbc.com
 $downrank=4,site=aljazeera.com
