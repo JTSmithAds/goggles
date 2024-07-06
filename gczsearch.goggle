@@ -1,0 +1,9 @@
+! name: GZC Search
+! description: Dolphin Gamecube Rom Search
+! public: false
+! author: Filesearchbox.com
+! homepage: https://filesearchbox.com/
+! avatar: #141440
+
+$discard
+*.gcz|$boost=10
