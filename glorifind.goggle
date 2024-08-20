@@ -1,0 +1,22 @@
+! name: Glorifind
+! description: Used on Glorifind.com to help Christians get results they want.
+! public: false
+! author: Glorifind.com
+! homepage: https://glorifind.com/
+! avatar: #391945
+$downrank=3,site=vice.com
+$downrank=3,site=reddit.com
+$downrank=3,site=wikipedia.org
+$downrank=3,site=theguardian.com
+$downrank=3,site=politifact.com
+$downrank=3,site=huffpost.com
+$downrank=3,site=msnbc.com
+$downrank=3,site=cnn.com
+$discard,site=plannedparenthood.org
+$discard,site=plannedparenthoodaction.org
+$discard,site=stk.uio.no
+$discard,site=reproductiverights.org
+$discard,site=prochoiceamerica.org
+$discard,site=guttmacher.org
+$discard,site=americanprogress.org
+$discard,site=jezebel.com
