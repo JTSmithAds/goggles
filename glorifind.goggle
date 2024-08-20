@@ -14,6 +14,7 @@
 *church*$boost=2,inurl
 
 $downrank=3,site=vice.com
+$downrank=3,site=hindustan.com
 $downrank=3,site=reddit.com
 $downrank=3,site=wikipedia.org
 $downrank=3,site=theguardian.com
