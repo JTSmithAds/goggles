@@ -4,6 +4,15 @@
 ! author: Glorifind.com
 ! homepage: https://glorifind.com/
 ! avatar: #391945
+
+! Boost Christian-Specific Subdomains and Paths
+*christian*$boost=2,inurl
+*bible*$boost=2,inurl
+*faith*$boost=2,inurl
+*baptist*$boost=2,inurl
+*pastor*$boost=2,inurl
+*church*$boost=2,inurl
+
 $downrank=3,site=vice.com
 $downrank=3,site=reddit.com
 $downrank=3,site=wikipedia.org
