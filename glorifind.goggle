@@ -12,6 +12,10 @@ $downrank=3,site=politifact.com
 $downrank=3,site=huffpost.com
 $downrank=3,site=msnbc.com
 $downrank=3,site=cnn.com
+$downrank=2,site=quora.com
+$downrank=2,site=history.com
+$downrank=2,site=nationalgeographic.co.uk
+$downrank=2,site=atheists.org
 $discard,site=plannedparenthood.org
 $discard,site=plannedparenthoodaction.org
 $discard,site=stk.uio.no
