@@ -1,0 +1,13 @@
+! name: Glorifind
+! description: Used on Glorifind.com to help Christians get results they want.
+! public: false
+! author: Glorifind.com
+! homepage: https://glorifind.com/
+! avatar: #391945
+
+$discard
+
+$boost=4,site=cbn.com
+$boost=4,site=premierchristian.news
+$boost=2,site=christianpost.com
+$boost=2,site=foxnews.com
