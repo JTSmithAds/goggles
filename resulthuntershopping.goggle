@@ -30,4 +30,4 @@ $boost=1,site=libertyclassroom.com
 $boost=1,site=chicos.com
 
 ! amazon
-/dp/$boost=1,site=amazon.com
+/dp$boost=1,site=amazon.com
