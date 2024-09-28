@@ -26,8 +26,8 @@ $boost=1,site=stampsmarketplace.com
 ! education
 $boost=1,site=libertyclassroom.com
 
-!clothing
+! clothing
 $boost=1,site=chicos.com
 
-!amazon
+! amazon
 /dp/$boost=1,site=amazon.com
