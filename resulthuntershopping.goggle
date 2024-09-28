@@ -28,3 +28,7 @@ $boost=1,site=libertyclassroom.com
 
 !clothing
 $boost=1,site=chicos.com
+
+! amazon
+$boost=1,site=amazon.com/dp/
+$discard=site=amazon.com,!/dp/
