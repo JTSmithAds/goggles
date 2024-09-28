@@ -30,5 +30,5 @@ $boost=1,site=libertyclassroom.com
 $boost=1,site=chicos.com
 
 ! amazon
-$boost=1,site=amazon.com/dp/
-$discard=site=amazon.com,!/dp/
+$discard=site=amazon.com
+$boost=2,site=amazon.com/dp/
