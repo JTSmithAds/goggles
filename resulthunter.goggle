@@ -4,6 +4,14 @@
 ! author: ResultHunter.com
 ! homepage: https://resulthunter.com/
 ! avatar: #141440
+
+$discard,site=plannedparenthood.org
+$discard,site=plannedparenthoodaction.org
+$discard,site=reproductiverights.org
+$discard,site=reproductiverights.gov
+$discard,site=guttmacher.org
+$discard,site=blackrj.org
+$discard,site=cnn.com
 $downrank=4,site=vox.com
 $downrank=4,site=reuters.com
 $downrank=4,site=thedailybeast.com
@@ -12,6 +20,7 @@ $downrank=4,site=huffpost.com
 $downrank=4,site=capitalandmain.com
 $downrank=4,site=americanprogress.org
 $downrank=4,site=nbcnews.com
+$downrank=4,site=vice.com
 $downrank=4,site=cnbc.com
 $downrank=4,site=aljazeera.com
 $downrank=4,site=cbsnews.com
@@ -88,8 +97,7 @@ $downrank=3,site=nydailynews.com
 $downrank=3,site=npr.org
 $downrank=3,site=nj.com
 $downrank=4,site=reddit.com
+$downrank=4,site=aclu.org
+$downrank=4,site=hrw.org
 $downrank=4,site=wikipedia.org
 $downrank=2,site=facebook.com
-$discard,site=plannedparenthood.org
-$discard,site=plannedparenthoodaction.org
-$discard,site=cnn.com
