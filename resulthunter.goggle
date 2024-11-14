@@ -35,11 +35,13 @@ $downrank=4,site=canyoncountryzephyr.com
 $downrank=4,site=mirror.co.uk
 $downrank=4,site=independent.co.uk
 $downrank=4,site=irishstar.com
+$downrank=4,site=counterpunch.org
 $downrank=4,site=cbc.ca
 $downrank=3,site=washingtonpost.com
 $downrank=3,site=usatoday.com
 $downrank=3,site=newsweek.com
 $downrank=3,site=amnesty.org
+$downrank=3,site=amnestyusa.org
 $downrank=3,site=apnews.com
 $downrank=3,site=bbc.com
 $downrank=3,site=climate.gov
@@ -98,6 +100,9 @@ $downrank=3,site=npr.org
 $downrank=3,site=nj.com
 $downrank=4,site=reddit.com
 $downrank=4,site=aclu.org
+$downrank=4,site=ncrc.org
+$downrank=4,site=civilrights.org
+$downrank=4,site=cbpp.org
 $downrank=4,site=hrw.org
 $downrank=4,site=wikipedia.org
 $downrank=2,site=facebook.com
