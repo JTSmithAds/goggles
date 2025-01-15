@@ -8,5 +8,6 @@
 $boost=2,site=themilitarywallet.com
 $boost=2,site=veteran.com
 $boost=2,site=veteransunited.com
+$boost=2,site=va.gov
 *veteran*$boost=3,inurl
 *military*$boost=3,inurl
