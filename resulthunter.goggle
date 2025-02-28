@@ -5,13 +5,11 @@
 ! homepage: https://resulthunter.com/
 ! avatar: #141440
 
-$discard,site=plannedparenthood.org
-$discard,site=plannedparenthoodaction.org
-$discard,site=reproductiverights.org
-$discard,site=reproductiverights.gov
-$discard,site=guttmacher.org
-$discard,site=blackrj.org
-$discard,site=cnn.com
+! Downrank for Consistently bad results for some reason.
+$downrank=3,site=yelp.com
+$downrank=3,site=mapquest.com
+
+! Downrank to make more room for individual voices
 $downrank=4,site=vox.com
 $downrank=4,site=reuters.com
 $downrank=4,site=thedailybeast.com
@@ -106,3 +104,14 @@ $downrank=4,site=cbpp.org
 $downrank=4,site=hrw.org
 $downrank=4,site=wikipedia.org
 $downrank=2,site=facebook.com
+
+! Discard for human rights violations
+$discard,site=plannedparenthood.org
+$discard,site=plannedparenthoodaction.org
+$discard,site=reproductiverights.org
+$discard,site=reproductiverights.gov
+
+! Discard to improve certain topics
+$discard,site=guttmacher.org
+$discard,site=blackrj.org
+$discard,site=cnn.com
