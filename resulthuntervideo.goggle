@@ -11,3 +11,4 @@ $discard
 /video/$boost=1,site=bitchute.com
 /watch^$downrank=2,site=youtube.com
 /%24/$discard,site=odysee.com
+*porn*$discard
