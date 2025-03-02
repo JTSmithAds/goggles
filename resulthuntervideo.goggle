@@ -1,0 +1,18 @@
+! name: Result Hunter Videos
+! description: Used on ResultHunter.com Video page to help conservatives get results they want.
+! public: false
+! author: ResultHunter.com
+! homepage: https://resulthunter.com/
+! avatar: #141440
+
+
+$discard
+$boost=2,site=odysee.com/*/*
+$boost=2,site=rumble.com/embed
+$boost=2,site=peertube.live
+$boost=2,site=bitchute.com/video
+$boost=2,site=tv.gab.com
+$downrank=2,site=youtube.com/watch
+
+$discard,site=odysee.com/$/
+$discard,site=odysee.com/*/
