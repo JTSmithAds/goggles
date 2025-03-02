@@ -5,11 +5,10 @@
 ! homepage: https://resulthunter.com/
 ! avatar: #141440
 
-
 $discard
 $boost=2,site=odysee.com
 /embed/$boost=2,site=rumble.com
 $boost=2,site=peertube.live
 /video/$boost=2,site=bitchute.com
 $boost=2,site=tv.gab.com
-/watch$downrank=2,site=youtube.com
+/watch^$downrank=2,site=youtube.com
