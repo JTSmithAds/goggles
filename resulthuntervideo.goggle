@@ -6,7 +6,8 @@
 ! avatar: #141440
 
 $discard
-/@^/^/$boost=2,site=odysee.com
+/^/^/$boost=2,site=odysee.com
 /embed/$boost=4,site=rumble.com
 /video/$boost=2,site=bitchute.com
 /watch^$downrank=2,site=youtube.com
+/%24/$discard,site=odysee.com
