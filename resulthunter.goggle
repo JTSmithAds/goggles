@@ -38,7 +38,9 @@ $downrank=4,site=irishstar.com
 $downrank=4,site=counterpunch.org
 $downrank=4,site=cbc.ca
 $downrank=4,site=rollingstone.com
+$downrank=3,site=bloomberg.com
 $downrank=3,site=axios.com
+$downrank=3,site=politifact.com
 $downrank=3,site=washingtonpost.com
 $downrank=3,site=usatoday.com
 $downrank=3,site=newsweek.com
@@ -102,6 +104,7 @@ $downrank=3,site=nymag.com
 $downrank=3,site=nydailynews.com
 $downrank=3,site=npr.org
 $downrank=3,site=nj.com
+$downrank=3,site=latimes.com
 $downrank=4,site=reddit.com
 $downrank=4,site=aclu.org
 $downrank=4,site=ncrc.org
@@ -109,6 +112,7 @@ $downrank=4,site=civilrights.org
 $downrank=4,site=cbpp.org
 $downrank=4,site=hrw.org
 $downrank=4,site=wikipedia.org
+$downrank=2,site=factcheck.org
 $downrank=2,site=facebook.com
 
 ! Discard for human rights violations
