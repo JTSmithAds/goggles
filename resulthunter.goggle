@@ -11,6 +11,7 @@ $downrank=3,site=mapquest.com
 
 ! Downrank to make more room for individual voices
 $downrank=5,site=cnn.com
+$downrank=5,site=pbs.org
 $downrank=4,site=vox.com
 $downrank=4,site=reuters.com
 $downrank=4,site=thedailybeast.com
@@ -36,6 +37,8 @@ $downrank=4,site=independent.co.uk
 $downrank=4,site=irishstar.com
 $downrank=4,site=counterpunch.org
 $downrank=4,site=cbc.ca
+$downrank=4,site=rollingstone.com
+$downrank=3,site=axios.com
 $downrank=3,site=washingtonpost.com
 $downrank=3,site=usatoday.com
 $downrank=3,site=newsweek.com
@@ -84,6 +87,8 @@ $downrank=3,site=slate.com
 $downrank=3,site=sfchronicle.com
 $downrank=3,site=scientificamerican.com
 $downrank=3,site=sacbee.com
+$downrank=3,site=time.com
+$downrank=3,site=people.com
 $downrank=3,site=psmag.com
 $downrank=3,site=propublica.org
 $downrank=3,site=progressivevoicesofiowa.com
