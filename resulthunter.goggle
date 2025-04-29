@@ -117,6 +117,9 @@ $downrank=2,site=facebook.com
 
 ! Downrank Foreign Domains
 *.co.uk|$downrank=4
+*.in|$downrank=4
+*.ru|$downrank=4
+*.cn|$downrank=4
 
 ! Discard for human rights violations
 $discard,site=plannedparenthood.org
