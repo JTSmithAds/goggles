@@ -115,6 +115,9 @@ $downrank=4,site=wikipedia.org
 $downrank=2,site=factcheck.org
 $downrank=2,site=facebook.com
 
+! Downrank Foreign Domains
+*.co.uk|$downrank=4
+
 ! Discard for human rights violations
 $discard,site=plannedparenthood.org
 $discard,site=plannedparenthoodaction.org
