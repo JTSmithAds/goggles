@@ -9,6 +9,9 @@
 $downrank=3,site=yelp.com
 $downrank=3,site=mapquest.com
 
+! Downrank for poor affiliate relationship
+$downrank=3,site=bestbuy.com
+
 ! Downrank to make more room for individual voices
 $downrank=5,site=cnn.com
 $downrank=5,site=pbs.org
