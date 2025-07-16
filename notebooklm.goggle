@@ -6,4 +6,4 @@
 ! avatar: #141440
 
 $discard
-/notebook/$boost=10,site=notebooklm.google.com
+/notebook$boost=10,site=notebooklm.google.com
