@@ -1,0 +1,9 @@
+! name: Notebook LM Search
+! description: Used by JT Smith
+! public: false
+! author: JT Smith
+! homepage: https://resulthunter.com
+! avatar: #141440
+
+$discard
+notebooklm.google.com/notebook/|$boost=10
